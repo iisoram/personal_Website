@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huda-resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+ 
+</head>
+<body>
+    <header class="header">
+        <i class='bx bxs-heart-circle'></i>
+        <div class="bx bx-menu" id="Menu-icon"></div>
+        <nav class="Mainbar">
+            <a href="#Home1" class="choosed">Home</a>
+            <a href="#Education">Education</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact me</a>
+        </nav>
+    </header>
+
+    <section class="Home" id="Home1">
+        <img src="developer.png" alt="developer">
+        <div class="Home-info">
+            <h1>WELCOME TO MY SPACE, I'M HUDA</h1>
+            <div class="My-title">
+                <h3>Software Engineering Student</h3>
+            </div>
+            <p> a driven and aspiring software engineering student on a journey to master the art of web development and Java programming, with a focus on creating dynamic and interactive web applications. Eager to learn and equipped with a solid understanding of the Java programming language, HTML, CSS, and JavaScript, continually honing my skills to bring creative web solutions to life. With a thirst for knowledge and a commitment to staying up-to-date with the latest industry trends.</p>
+        </div>
+    </section>
+
+    <section class="Edu" id="Education">
+        <h2 class="head"> ~Educational Journey</h2>
+        <div class="education-container">
+            <div class="education-box">
+                <h3>Bachelor Degree in Software Engineering</h3>
+                <p>A senior student at Jeddah University.</p>
+                <p>Duration: 2021-2025</p>
+            </div>
+            <div class="education-box">
+                <h3>Unity Game Engine Course</h3>
+                <p>A three days real-life course presented by Google Developers Club.</p>
+                <p>Duration: 3 days</p>
+            </div>
+            <div class="education-box">
+                <h3>Web Development Course</h3>
+                <p>An online web course on Udemy Academy.</p>
+                <p>Duration: 1 hour</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Projects" id="Projects">
+        <h2 class="project-title">Projects</h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <h3>Project 1: PetVet</h3>
+                <p>Language and tools used: Figma, Android Studio Java</p>
+                <p>Description: An app that provides a convenient and user-friendly way for pet owners to book appointments with veterinarians and groomers. The app aims to make the process of booking appointments easier and more efficient by allowing users to schedule their appointments through the app.</p>
+                <h6>scroll right and left to see the pics</h6>
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img id="slide-1" src="pic1.png" alt="PetVet app" />
+                        <img id="slide-2" src="pic2.png" alt="PetVet app"/>
+                        <img id="slide-3" src="pic3.png" alt="PetVet app" />
+                        <img id="slide-4" src="pic4.png" alt="PetVet app" />
+                        <img id="slide-5" src="pic5.png" alt="PetVet app"/>
+                        <img id="slide-6" src="pic6.png" alt="PetVet app"/>
+                    </div>
+                    <div class="slider-nav">
+                        <a href="#slide-1"></a>
+                        <a href="#slide-2"></a>
+                        <a href="#slide-3"></a>
+                        <a href="#slide-4"></a>
+                        <a href="#slide-5"></a>
+                        <a href="#slide-6"></a>
+                    </div>
+                </div>
+                <a href="PetVet.pdf" target="_blank" class="pdf-button">Open PDF</a>
+            </div>
+            <div class="project-box">
+                <h3>Project 2: EventSpot</h3>
+                <p>Language and tools used: Netbeans Java, Trello</p>
+                <p>Description: A smartphone application made to make the process of bookings and arranging events simpler. The software will provide consumers a convenient experience of planning, organizing, and booking the events perfect spot. Event organizers will be able to set up and manage events via the app and read the information related to places they get match with according to their choices. Also, they can see photos and comments of these places to help them take a decision. The Event Planner and booking App will offer a dependable and secure platform for event planning and bookings with its user-friendly design, smooth payment processing.</p>
+                <a href="EvenSpotReport.pdf" target="_blank" class="pdf-button">Open PDF</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+        <h2 class="contact-title">Contact Me</h2>
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="https://twitter.com/hmmmeowww" target="_blank">
+                <i class="bx bxl-twitter"></i> Twitter
+            </a>
+            <a href="https://github.com/iisoram" target="_blank">
+                <i class="bx bxl-github"></i> GitHub
+            </a>
+            <a href="https://www.instagram.com/iisoram/" target="_blank">
+                <i class="bx bxl-instagram"></i> Instagram
+            </a>
+            <a href="https://t.snapchat.com/LoW0cGDN" target="_blank">
+                <i class="bx bxl-snapchat"></i> Snapchat 
+            </a>
+
+        </div>
+        <div class="contact-form">
+            <h3>Or Contact me Through:</h3>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Enter the email subject" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Website Designed and Created on Visual Studio By owner: Huda</p>
+    </footer>
+</body>
+
+</html>
